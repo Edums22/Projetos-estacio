@@ -27,13 +27,7 @@ Regras do Jogo
 
 Como Jogar
 ==========
-1. Compile o jogo:
-   gcc batalha_naval.c -o batalha_naval
-
-2. Execute o jogo:
-   ./batalha_naval
-
-3. Posicione seus navios:
+1. Posicione seus navios:
    - Digite dois números de 0 a 4 separados por espaço:
      - Primeiro número: linha (X).
      - Segundo número: coluna (Y).
@@ -42,15 +36,15 @@ Como Jogar
      Navio 2: 2 3
      Navio 3: 4 4
 
-4. Ataque o inimigo:
+2. Ataque o inimigo:
    - Digite as coordenadas do ataque no formato:
      X Y
    - Se acertar: "Você acertou um navio!".
    - Se errar: "Você errou.".
 
-5. O computador atacará automaticamente após seu turno.
+3. O computador atacará automaticamente após seu turno.
 
-6. Continue jogando até a vitória ou derrota.
+4. Continue jogando até a vitória ou derrota.
 
 Dicas
 =====
